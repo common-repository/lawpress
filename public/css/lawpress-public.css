@@ -1,0 +1,151 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .lp-grid-card{
+    margin: 10px 0px;
+}
+.lp-icon-info .lp-number{
+    padding-left: 5px;
+    font-weight: 700;
+}
+.lp-icon-info i{
+    padding-left: 5px;
+}
+.lp-number-caption{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+ /* Attorney Single */
+ .lp-attorney-card{
+ 	overflow: hidden;
+ 	margin-bottom: 20px;
+ }
+ .lp-attorney-card .lp-attorney-photo, .lp-attorney-card .lp-attorney-content{
+ 	width: 100%;
+ 	float: left;
+ }
+ .lp-attorney-card .lp-attorney-content{
+ 	padding: 10px 15px;
+ 	border: solid 1px #dadada;
+ }
+ .lp-attorney-card.has-thumbnail .lp-attorney-photo{
+ 	width: 28%;
+    margin-right: 2%;
+ }
+ .lp-attorney-card.has-thumbnail .lp-attorney-content{
+ 	width: 70%;
+ }
+ .lp-attorney-card dd, .lp-attorney-card dt{
+ 	margin: 0 !important;
+ 	line-height: 1.4 !important;
+ }
+ .lp-attorney-card dt{
+
+ }
+ .lp-attorney-card dd{
+ 	margin-bottom: 10px !important;
+ }
+ @media screen and (max-width: 767px){
+ 	.lp-attorney-card .lp-attorney-photo, .lp-attorney-card .lp-attorney-content{
+ 		width: 100% !important; 
+ 	}
+ }
+
+ /* Attorney list */
+ .lp-attorney-list {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	text-align: center;
+ }
+ .lp-attorney-list .lp-attorney-card{
+ 	flex: 0 1 31.33%;
+    margin: 0 1%;
+    margin-bottom: 1%;
+ }
+ .lp-attorney-list .lp-attorney-card img{
+ 	width: 100%;
+ }
+ @media screen and (max-width: 767px){
+ 	.lp-attorney-list {
+ 		display: block;
+ 	}
+ 	.lp-attorney-list .lp-attorney-card{
+ 		flex: none;
+ 		margin: 0;
+ 		width: 100%;
+ 		margin-bottom: 20px;
+ 	}
+ }
+ .lp-cases-info, .lp-cases-info{
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+ 	background: #fff;
+    padding: 10px;
+    border: solid 1px #e5e5e5;
+    border: 1px solid #e0e0e0;
+}
+.lp-icon-info{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff;
+    padding: 10px;
+    border: solid 1px #e5e5e5;
+    border: 1px solid #e0e0e0;
+}
+.lp-thumbnail-container{
+	position: relative;
+}
+.lp-cases-info .case-number{
+	padding-right: 5px;
+	font-weight: 700;
+}
+.card-no-thumbnail .lp-cases-info{
+	position: relative;
+}
+
+ /* Practice Area list */
+ .lp-practice-area-list {
+ 	display: flex;
+ 	text-align: center;
+ 	flex-wrap: wrap;
+ }
+ .lp-practice-area-list .lp-practice-area-card{
+ 	flex: 0 1 23%;
+    margin: 0 1%;
+ }
+ .lp-practice-area-list .lp-practice-area-card img{
+ 	width: 100%;
+ }
+ @media screen and (max-width: 767px){
+ 	.lp-practice-area-list {
+ 		display: block;
+ 	}
+ 	.lp-practice-area-list .lp-practice-area-card{
+ 		flex: none;
+ 		margin: 0;
+ 		width: 100%;
+ 		margin-bottom: 20px;
+ 	}
+ }
+
+ /* Cases */
+ .case-settlement{
+ 	font-weight: 700;
+ 	margin-left: 2px;
+ }
+
+ /* Shortcode table */
+ .lp-table{
+     border-collapse: collapse;
+     text-align: left;
+ }
+ table.lp-table, table.lp-table th, table.lp-table td {
+  border: 1px solid black;
+}
+table.lp-table th, table.lp-table td {
+    padding: 0 5px;
+    }
